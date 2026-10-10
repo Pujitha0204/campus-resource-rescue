@@ -38,3 +38,5 @@ application-local.properties
 # Node / React
 node_modules/
 dist/
+# Local database configuration
+src/main/resources/application.properties
