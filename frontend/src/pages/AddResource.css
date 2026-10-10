@@ -1,0 +1,96 @@
+.add-resource-page {
+  min-height: 100vh;
+  background: #f4f6f8;
+  padding-bottom: 50px;
+}
+
+.add-resource-header {
+  background: #2563eb;
+  color: white;
+  padding: 35px 50px;
+  margin: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.add-resource-header h1 {
+  color: white;
+  font-size: 40px;
+  margin: 0 0 12px;
+}
+
+.add-resource-header p {
+  color: white;
+  font-size: 17px;
+  margin: 0;
+}
+
+.form-container {
+  background: white;
+  max-width: 650px;
+  margin: 35px auto;
+  padding: 35px 45px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 25px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container label {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 7px;
+  color: #374151;
+}
+
+.form-container input,
+.form-container textarea,
+.form-container select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  font-size: 15px;
+  background: white;
+  color: #333;
+}
+
+.form-container textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.form-container button {
+  margin-top: 25px;
+  padding: 13px;
+  font-size: 16px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background: #1d4ed8;
+}
+
+.message {
+  padding: 12px;
+  margin-bottom: 15px;
+  text-align: center;
+  border-radius: 7px;
+  background: #eef6ff;
+  color: #2563eb;
+  font-weight: bold;
+}

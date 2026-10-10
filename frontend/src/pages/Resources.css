@@ -1,0 +1,123 @@
+.resources-page {
+  min-height: 100vh;
+  background: #f4f6f8;
+  padding-bottom: 50px;
+}
+
+.resources-header {
+  background: #2563eb;
+  color: white;
+  padding: 35px 50px;
+  margin: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.resources-header h1 {
+  color: white;
+  font-size: 42px;
+  line-height: 1.2;
+  margin: 0 0 12px 0;
+}
+
+.resources-header p {
+  color: white;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.filters {
+  display: flex;
+  gap: 20px;
+  padding: 30px 50px 10px;
+  justify-content: center;
+}
+
+.filters input,
+.filters select {
+  background: white;
+  color: #333;
+  min-width: 280px;
+  height: 45px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.filters select {
+  cursor: pointer;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  padding: 30px 50px;
+}
+
+.resource-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.resource-icon {
+  font-size: 40px;
+  text-align: center;
+}
+
+.resource-card h2 {
+  color: #1f2937;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.resource-card > p {
+  color: #555;
+  line-height: 1.5;
+}
+
+.resource-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+  font-size: 15px;
+}
+
+.status {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.status.available {
+  color: green;
+}
+
+.status.reserved {
+  color: orange;
+}
+
+.status.completed {
+  color: #2563eb;
+}
+
+.resource-card button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.completed-text {
+  font-weight: bold;
+  color: #2563eb !important;
+  text-align: center;
+}
+
+.no-resources {
+  text-align: center;
+  font-size: 18px;
+}

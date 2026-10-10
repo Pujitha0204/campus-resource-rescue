@@ -1,0 +1,101 @@
+.admin-page {
+  min-height: 100vh;
+  background: #f4f6f8;
+  padding-bottom: 50px;
+}
+
+.admin-header {
+  background: #2563eb;
+  color: white;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.admin-header h1 {
+  color: white;
+  font-size: 40px;
+  margin: 0 0 10px;
+}
+
+.admin-header p {
+  color: white;
+  margin: 0;
+  font-size: 17px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  padding: 30px 50px;
+}
+
+.stat-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card span {
+  font-size: 40px;
+}
+
+.stat-card h2 {
+  font-size: 32px;
+  color: #2563eb;
+  margin: 10px 0;
+}
+
+.stat-card p {
+  color: #666;
+  margin: 0;
+}
+
+.admin-section {
+  background: white;
+  margin: 20px 50px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.admin-section h2 {
+  text-align: center;
+}
+
+.status-grid {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.status-grid strong {
+  font-size: 30px;
+  color: #2563eb;
+}
+
+.status-grid p {
+  color: #666;
+}
+
+@media (max-width: 800px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .admin-section {
+    margin: 20px;
+  }
+}
